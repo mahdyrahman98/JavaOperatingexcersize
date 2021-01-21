@@ -115,22 +115,19 @@ public class Conditionals {
 	}
 
 	public static void tax(int y) {
-		if(y < 14999) {
-			System.out.println(y);}
-			else if(y > 15000 && y < 19999) {
-				
-				System.out.println(y * 0.9);
-			} else if(y > 20000 && y < 29999 ) {
-				System.out.println(y * 0.85);
-			}else if(y > 30000 && y < 44999) {
-					System.out.print(y * 0.8);
-			} 
-			else if (y > 45000) {
-						System.out.println( y * 0.75);
-					}
-				}
-				
-		
+		if (y < 14999) {
+			System.out.println(y);
+		} else if (y > 15000 && y < 19999) {
+
+			System.out.println(y * 0.9);
+		} else if (y > 20000 && y < 29999) {
+			System.out.println(y * 0.85);
+		} else if (y > 30000 && y < 44999) {
+			System.out.print(y * 0.8);
+		} else if (y > 45000) {
+			System.out.println(y * 0.75);
+		}
+	}
 
 	public static void numbers(int y) {
 
