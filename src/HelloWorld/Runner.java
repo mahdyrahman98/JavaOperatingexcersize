@@ -8,6 +8,7 @@ public class Runner {
 	Conditionals.flowchartb(6001);
 	Conditionals.blackjack(13, 9);
 	Conditionals.uniqueSum(2,9,4);
+	Conditionals.tax(100000);
 	
 	
 }
