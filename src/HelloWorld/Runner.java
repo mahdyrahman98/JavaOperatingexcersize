@@ -11,6 +11,16 @@ public class Runner {
 	Conditionals.tax(100000);
 	
 	
+	Array.loops();
+	Array.anotherLoop();
+	Array.stringArray();
+	Array.bigArray();
+	Array.evenOdd(8);
+	
+	
+	
+
+	
 }
 
 
