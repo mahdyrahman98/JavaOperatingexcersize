@@ -1,5 +1,7 @@
 package HelloWorld;
 
+import java.util.ArrayList;
+
 public class Array {
 
 	public static int looparray[] = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
@@ -45,7 +47,24 @@ public class Array {
 		}
 
 	}
+
+	public static void arrayList() {
+
+		ArrayList<String> fruitList = new ArrayList<>();
+
+		fruitList.add("mango");
+		fruitList.add("apple");
+		fruitList.add("banana");
+		fruitList.add("kiwi");
+		fruitList.add("orange");
+
+		fruitList.remove("kiwi");
+		System.out.println(fruitList.get(2));  
 	
-	
+		
+		System.out.println(fruitList);
+		
+
+	}
 
 }
