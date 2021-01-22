@@ -1,26 +1,25 @@
 package HelloWorld;
 
 public class Iteration {
+	public static int numbers(int z) {
+	String i = String.valueOf(z);
+	String k = i.substring(0,1);
+	String j = i.substring(1);
+	int a = Integer.parseInt(j);
+	int m = Integer.parseInt(k);
+	return a + m;
+	}
+	{
+	System.out.println(numbers(99));
 	
-	public static void numbers() {
+	
+	
+	
 		
-		int catCount = 0;
-	    boolean notEnoughCats = true;
-
-	        while(notEnoughCats) {
-	            System.out.println("Another cat");
-	            catCount++;
-
-	            if(catCount > 10) {
-	                notEnoughCats = false;
-	            }
-	        }
-
-	        System.out.println("Too many cats what do I do");
-	    }
-
+	
+				
 		
 		
 		
 	}
-
+}

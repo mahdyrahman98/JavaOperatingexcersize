@@ -17,7 +17,7 @@ public class Runner {
 		Array.evenOdd(8);
 		Array.arrayList();
 		
-		Iteration.numbers();
+		Iteration.numbers(99);
 
 	}
 
