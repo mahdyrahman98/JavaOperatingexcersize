@@ -16,6 +16,8 @@ public class Runner {
 		Array.bigArray();
 		Array.evenOdd(8);
 		Array.arrayList();
+		
+		Iteration.numbers();
 
 	}
 

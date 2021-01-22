@@ -1,6 +1,8 @@
 package HelloWorld;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Array {
 
@@ -59,10 +61,21 @@ public class Array {
 		fruitList.add("orange");
 
 		fruitList.remove("kiwi");
-		System.out.println(fruitList.get(2));  
-	
-		
+		System.out.println(fruitList.get(2));
+
 		System.out.println(fruitList);
+
+		fruitList.set(0, "dates");
+		fruitList.set(3, "strawberry");
+		System.out.println(fruitList);
+
+		Collections.sort(fruitList);
+		Collections.reverse(fruitList);
+		System.out.println(fruitList);
+		System.out.println(fruitList.size());
+		
+		
+		
 		
 
 	}
