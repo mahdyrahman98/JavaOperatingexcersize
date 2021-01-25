@@ -1,5 +1,7 @@
 package HelloWorld;
 
+
+
 public class Runner {
 	public static void main(String[] args) {
 		Conditionals.division();
@@ -18,6 +20,8 @@ public class Runner {
 		Array.arrayList();
 		
 		Iteration.numbers(99);
+		scannerExcersize.number();
+		
 
 	}
 
