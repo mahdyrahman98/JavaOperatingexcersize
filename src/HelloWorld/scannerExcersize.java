@@ -12,9 +12,15 @@ public class scannerExcersize {
 		Scanner scan = new Scanner(System.in);
 
 		System.out.print("Enter Two Numbers : ");
+		
+		
 
 		first = scan.nextInt();
 		second = scan.nextInt();
+		
+		//System.out.println(";Enter add or subtract or multiply or divide");
+		
+		
 
 		add = first + second;
 		subtract = first - second;
@@ -38,7 +44,7 @@ public class scannerExcersize {
 		System.out.println("Enter your age");
 		int age = scan.nextInt();
 
-		System.out.println("What is your job tite");
+		System.out.println("What is your job title");
 		String job = scan.next();
 		job += scan.nextLine();
 
