@@ -2,15 +2,19 @@ package com.qa.week3.garage;
 
 public class Motorcycle extends Vehicle {
 	
-	public int motorcycleReg = 1234;
+	int motorcycleReg = 1234;
 	
-	public String motorcyleMake = "toyota";
+	String motorcyleMake = "toyota";
 	
-	 Motorcycle (int num, String motorcyle)
+	 Motorcycle (int reg, String type)
 	{
 		
-		motorcycleReg = num;
-		motorcyleMake = motorcycle;
+		motorcycleReg = reg;
+		motorcyleMake = type;
+		
+		Vehicle vehicle = new Vehicle();
+		   
+		   vehicle.carMake = type;
 		
 		
 		

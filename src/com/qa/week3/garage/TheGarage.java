@@ -1,7 +1,25 @@
 package com.qa.week3.garage;
 
-public class TheGarage extends Vehicle {
+import java.awt.List;
+import java.util.ArrayList;
 
+public class TheGarage extends Vehicle {
+	
+	ArrayList<Object> TheGarage = new ArrayList<Object> ();
+	
+	 TheGarage(List<Vehicle> vehicle)
+	
+	{
+		
+		List<Vehicle> garagelist = vehicle;
+		
+		
+				
+	}
+	
+	
+	
+	
 	
 	
 }
